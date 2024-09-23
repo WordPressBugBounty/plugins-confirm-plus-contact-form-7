@@ -1,0 +1,75 @@
+.wpcf7cp-force-hide {
+    display: none !important;
+}
+
+.wpcf7cp-form-hide {
+    visibility: hidden !important;
+}
+
+div.wpcf7 {
+	position: relative;
+	height: auto;
+}
+
+div#wpcf7cpcnf {
+	position: absolute;
+	z-index: 1000;
+	background-color: transparent;
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+div.wpcf7cp-progress-cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    background-color: #fff;
+	opacity: 0.5;
+	z-index: 1000;
+}
+
+div.wpcf7cp-progress-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    margin: 0;
+	opacity: 1;
+	z-index: 1001;
+}
+	div.wpcf7cp-progress-content p {
+		width: 200px;
+		height: 1em;
+		position: absolute;
+		margin-left: -100px;
+		margin-top: -0.5em;
+		top: 50%;
+		left: 50%;
+		line-height: 1;
+		padding: 0;
+		text-align: center;
+	}
+
+div.wpcf7cp-btns {
+    margin-top: 2em;
+}
+
+button.wpcf7cp-cfm-edit-btn {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+button.wpcf7cp-cfm-submit-btn {
+    margin-bottom: 20px;
+}
+
