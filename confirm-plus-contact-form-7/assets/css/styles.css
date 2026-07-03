@@ -25,6 +25,58 @@ div#wpcf7cpcnf {
     margin-bottom: auto;
 }
 
+/* Confirmation Table styling */
+div#wpcf7cpcnf table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+}
+
+div#wpcf7cpcnf th,
+div#wpcf7cpcnf td {
+    padding: 0.8em 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.5;
+}
+
+div#wpcf7cpcnf th {
+    width: 30%;
+    font-weight: bold;
+    color: inherit;
+}
+
+div#wpcf7cpcnf td {
+    width: 70%;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    div#wpcf7cpcnf table, 
+    div#wpcf7cpcnf tbody, 
+    div#wpcf7cpcnf tr, 
+    div#wpcf7cpcnf th, 
+    div#wpcf7cpcnf td {
+        display: block;
+        width: 100%;
+    }
+    div#wpcf7cpcnf tr {
+        margin-bottom: 1em;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+    div#wpcf7cpcnf th, 
+    div#wpcf7cpcnf td {
+        border-bottom: none;
+        padding: 0.4em 0.5em;
+    }
+    div#wpcf7cpcnf th {
+        font-weight: bold;
+        padding-bottom: 0.1em;
+    }
+}
+
+
 div.wpcf7cp-progress-cover {
 	position: absolute;
 	top: 0;
@@ -60,16 +112,16 @@ div.wpcf7cp-progress-content {
 		text-align: center;
 	}
 
+/* Spacing and flex layout for confirmation buttons */
 div.wpcf7cp-btns {
     margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
 }
 
-button.wpcf7cp-cfm-edit-btn {
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
+button.wpcf7cp-cfm-edit-btn,
 button.wpcf7cp-cfm-submit-btn {
+    margin: 0;
     margin-bottom: 20px;
 }
-

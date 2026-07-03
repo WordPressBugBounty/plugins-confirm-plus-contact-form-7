@@ -2,9 +2,9 @@
 Contributors: trustring
 Tags: contact, form, contact form confirm
 Requires at least: 5.7.2
-Tested up to: 6.5.5
+Tested up to: 7.0
 Requires PHP: 7.3
-Stable tag: 1.1.10
+Stable tag: 2.0.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: confirm-plus-contact-form-7
@@ -44,6 +44,13 @@ You can find more detailed information and [usage](https://wcpn.jp/2021/09/30/cf
 * [usage](https://wcpn.jp/2021/09/30/cf7confirmplus/)
 * [contact us](https://wcpn.jp/contact/)
 
+== Support ==
+
+For free support on WordPress.org forums, we only support issues occurring in a minimal environment with core WordPress and "Contact Form 7".
+
+If you need support for third-party plugin/theme compatibility, customization, or private investigation, please consider our paid support plan:
+https://wcpn.jp/product-list/support-plan/
+
 == Screenshots ==
 
 1. Click confirm button.
@@ -51,3 +58,13 @@ You can find more detailed information and [usage](https://wcpn.jp/2021/09/30/cf
 
 == Changelog ==
 
+= 2.0.3.1 =
+* Add support policy and details about the paid support plan in readme.txt.
+
+= 2.0.3 =
+* Improve asset cache-busting behavior by switching from dynamic filemtime to static versioning.
+
+= 2.0.0 =
+* Major refactoring: Remove jQuery UI Dialog dependency and transition to modern CSS/JS layouts.
+* Add compatibility for PHP 8.x and newer WordPress/Contact Form 7 releases.
+* Ensure backward compatibility for legacy non-block (classic) forms.
